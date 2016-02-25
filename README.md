@@ -11,5 +11,6 @@
 </br> 
 <b>Things to fix</b> 
 <li>Broken start.sh script.</li> 
+<b>Things to make</b> 
 <li>Better libimobiledevice installer.</li> 
 <li>Make s3tz7.m have a linux / mac compiler script </li> 
