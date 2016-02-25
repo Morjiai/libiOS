@@ -1,6 +1,5 @@
 # libiOS
 <b>This isn't a jailbreak and I will never ever make one.</b>
-<hr> 
 </br>
 <b>About:</b> Don't assume anything, I am bored and was having fun. 
 </br>
@@ -8,7 +7,6 @@
 </br>
 <b>NOTES:</b>Library/OSX is used for Linux to compile things that require OS X libs.
 </br> 
-</hr> 
 #To Do
 </br> 
 <b>Things to fix</b> 
