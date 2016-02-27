@@ -1,12 +1,15 @@
-#!bin/bash
-echo "Getting ready to set up libiOS"
-read -r 1 -b "Would you like to exit, build 9.3/b3/s3tz7.m or run legacy SSH exploit ? (E/b/r) " ans;
+#!/bin/bash
+echo "Welcome to libiOS!"
+echo "1.) Compile  libiOS/9.3/B3/s3tz7.m"
+echo "2.) Compile linux library."
+echo "3.) Compile Extras."
+echo "4.) Run outdated SSH legacy exploit." 
 
-case $ans in
-    r|R)
-       python SSH/legacy.py;;
-    b|B)
-       clang -o 9.3/b3/s3tz7.m;;
-    *)
-        exit ;;
+read n
+case $n in
+    1.) clang -o libiOS/9.3/B3/s3tz7.m;;
+    2.) sh libs.sh;;
+    3.) sh extras.sh;;
+    4.) python SSH/legacy.py;;
+    *) invalid option;;
 esac
