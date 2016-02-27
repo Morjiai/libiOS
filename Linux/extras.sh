@@ -10,6 +10,9 @@ case $response in
     make
         ;;
     *)
-        echo "Sorry not supported!";
+        echo "Will try to install, but this will most likely fail."
+         git clone https://github.com/emonti/afcclient.git
+    cd afcclient
+    make
         ;;
 esac
