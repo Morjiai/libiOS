@@ -1,5 +1,4 @@
 # libiOS
-<b>This isn't a jailbreak and I will never ever make one.</b>
 </br>
 <b>About:</b> Don't assume anything, I am bored and was having fun. 
 </br>
