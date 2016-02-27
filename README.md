@@ -7,9 +7,8 @@
 <b>NOTES:</b>Library/OSX is used for Linux to compile things that require OS X libs.
 </br> 
 #To Do
-</br> 
-<b>Things to fix</b> 
-<li>Broken start.sh script.</li> 
 <b>Things to make</b> 
 <li>Better libimobiledevice installer.</li> 
 <li>Make s3tz7.m have a linux / mac compiler script </li> 
+<li>Installer script that installs all dependencies. </li> 
+
