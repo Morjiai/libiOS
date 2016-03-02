@@ -8,7 +8,5 @@
 </br> 
 #To Do
 <b>Things to make</b> 
-<li>Better libimobiledevice installer.</li> 
-<li>Make s3tz7.m have a linux / mac compiler script </li> 
-<li>Installer script that installs all dependencies. </li> 
+<li>Need to fix SSH tool dependence script. </li> 
 
