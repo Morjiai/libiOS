@@ -4,6 +4,7 @@ echo "1.) Compile  libiOS/9.3/B3/s3tz7.m"
 echo "2.) Compile linux library."
 echo "3.) Compile Extras."
 echo "4.) Run outdated SSH legacy exploit." 
+echo "5.) Mount HFS." 
 
 read n
 case $n in
@@ -14,5 +15,7 @@ case $n in
     3) sh Linux/extras.sh
 ;;
     4) python SSH/legacy.py
+;;
+    5) sh Tools/hfs-mount.sh
 ;;
 esac
